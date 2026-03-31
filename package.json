@@ -10,11 +10,17 @@
     "format": "prettier --check .",
     "format:write": "prettier --write .",
     "prisma:generate": "prisma generate",
-    "prisma:migrate:dev": "prisma migrate dev"
+    "prisma:migrate:dev": "prisma migrate dev",
+    "prisma:seed": "node prisma/seed.mjs"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.6.0",
     "@prisma/client": "^7.6.0",
+    "bcryptjs": "^3.0.3",
     "next": "^15.5.14",
+    "next-auth": "^5.0.0-beta.30",
+    "openai": "^6.33.0",
+    "pg": "^8.20.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },

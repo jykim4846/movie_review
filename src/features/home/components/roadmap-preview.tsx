@@ -1,11 +1,11 @@
 import { SectionCard } from "@/components/common/section-card";
 
 const todoItems = [
-  "영화 기록 CRUD",
+  "영화 기록 수정 기능",
   "TMDB 기반 영화 검색 보조",
   "OpenAI 캡션 생성 서버 액션 또는 API Route",
   "카드 이미지 저장 기능",
-  "로그인과 개인 보관함 분리",
+  "캡션 히스토리 관리 개선",
 ];
 
 export function RoadmapPreview() {
