@@ -1,0 +1,22 @@
+{
+  "name": "소감 끄적이기",
+  "short_name": "소감 끄적이기",
+  "description": "영화·책 소감을 인스타 게시물로 만들어주는 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

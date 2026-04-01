@@ -1,0 +1,240 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774970886860,
+  "projectRoot": "/Users/jongyeonkim/Desktop/codex/movie-diary-mvp",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.5.14",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint . --ext .ts,.tsx",
+      "format": "prettier --check .",
+      "format:write": "prettier --write .",
+      "prisma:generate": "prisma generate",
+      "prisma:migrate:dev": "prisma migrate dev",
+      "prisma:seed": "node prisma/seed.mjs"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": "feature-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "prisma": {
+      "path": "prisma",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1774970886829,
+      "keyFiles": [
+        "schema.prisma",
+        "seed.mjs"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1774970886831,
+      "keyFiles": [
+        "auth.config.ts",
+        "auth.ts",
+        "middleware.ts"
+      ]
+    },
+    "prisma/migrations": {
+      "path": "prisma/migrations",
+      "purpose": "Database migrations",
+      "fileCount": 1,
+      "lastAccessed": 1774970886839,
+      "keyFiles": [
+        "migration_lock.toml"
+      ]
+    },
+    "src/app": {
+      "path": "src/app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1774970886840,
+      "keyFiles": [
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1774970886840,
+      "keyFiles": []
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 4,
+      "lastAccessed": 1774970886841,
+      "keyFiles": [
+        "env.ts",
+        "openai.ts",
+        "prisma.ts"
+      ]
+    },
+    "src/types": {
+      "path": "src/types",
+      "purpose": "Type definitions",
+      "fileCount": 2,
+      "lastAccessed": 1774970886841,
+      "keyFiles": [
+        "movie-entry.ts",
+        "next-auth.d.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/features/movie-diary/actions/movie-entry-actions.ts",
+      "accessCount": 6,
+      "lastAccessed": 1775050145332,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 4,
+      "lastAccessed": 1775049903838,
+      "type": "directory"
+    },
+    {
+      "path": "src/app/logs/[id]/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775050099602,
+      "type": "file"
+    },
+    {
+      "path": "src/features/captions/actions/generate-captions.ts",
+      "accessCount": 3,
+      "lastAccessed": 1775050163186,
+      "type": "file"
+    },
+    {
+      "path": "src/middleware.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775049986269,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/app-shell.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775049988531,
+      "type": "file"
+    },
+    {
+      "path": "src/app/diary/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775050005119,
+      "type": "file"
+    },
+    {
+      "path": "src/app/logs/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775050008567,
+      "type": "file"
+    },
+    {
+      "path": "src/app/logs/new/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775050036504,
+      "type": "file"
+    },
+    {
+      "path": "src/app/logs/[id]/edit/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775050066928,
+      "type": "file"
+    },
+    {
+      "path": "src/features/captions/components/generate-captions-button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774970931372,
+      "type": "file"
+    },
+    {
+      "path": "src/auth.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775049895432,
+      "type": "file"
+    },
+    {
+      "path": "src/features/movie-diary/lib/movie-log-queries.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775049904113,
+      "type": "file"
+    },
+    {
+      "path": "prisma/schema.prisma",
+      "accessCount": 1,
+      "lastAccessed": 1775049910022,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/owner.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775049971858,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
