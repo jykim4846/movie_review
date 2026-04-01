@@ -172,7 +172,7 @@ export function GeneratorForm({
               className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none placeholder:text-slate-500"
               placeholder="예: 16"
             />
-            <p className="text-xs text-slate-400">"{kind} 소감 끄적이기 N번째" 형식의 제목에 사용돼요</p>
+            <p className="text-xs text-slate-400">&ldquo;{kind} 소감 끄적이기 N번째&rdquo; 형식의 제목에 사용돼요</p>
           </label>
 
           <div className="grid gap-4 sm:grid-cols-2">
